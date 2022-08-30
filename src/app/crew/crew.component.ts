@@ -12,7 +12,8 @@ export class CrewComponent implements OnInit {
     {name: "Mae Jemison", firstMission: false},
     {name: "Ellen Ochoa", firstMission: true}
   ];
-
+  memberBeingEdited: object = null
+  
   constructor() { }
 
   ngOnInit() {
